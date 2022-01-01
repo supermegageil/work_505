@@ -6,7 +6,7 @@ header {
         position: relative;
 
         h1{
-            position: absolute; left: 0px; bottom:30px;
+            position: absolute; left: 0px; bottom:20px;
             a{
                 font: bold 24px/1 "arial"; color:#fff;
             }
@@ -55,12 +55,33 @@ footer {
 @media screen and (max-width: 1179px){
     header {
         .inner {
+            width: 100%;
             h1 {
                 left: 3vw;
             }
             #gnb {
                 display: none;
             }
+        }
+    }
+
+    main{
+        padding: 80px 40px;
+
+        .inner{
+            width: 100%;
+        }
+    }
+
+    footer{
+        .inner{
+            width: 100%;
+        }
+    }
+
+    footer{
+        .inner{
+            width: 100%;
         }
     }
 }

@@ -21,7 +21,7 @@ header {
     header .inner h1 {
       position: absolute;
       left: 0px;
-      bottom: 30px; }
+      bottom: 20px; }
       header .inner h1 a {
         font: bold 24px/1 "arial";
         color: #fff; }
@@ -62,9 +62,22 @@ footer {
       text-align: center; }
 
 @media screen and (max-width: 1179px) {
-  header .inner h1 {
-    left: 3vw; }
-  header .inner #gnb {
-    display: none; } }
+  header .inner {
+    width: 100%; }
+    header .inner h1 {
+      left: 3vw; }
+    header .inner #gnb {
+      display: none; }
+
+  main {
+    padding: 80px 40px; }
+    main .inner {
+      width: 100%; }
+
+  footer .inner {
+    width: 100%; }
+
+  footer .inner {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
