@@ -1,9 +1,9 @@
-function info(){
+function Info(){
     return (
-        <section id="info">
+        <section id="Info">
             <div className="inner"></div>
         </section>
     )
 }
 
-export default info;
+export default Info;
