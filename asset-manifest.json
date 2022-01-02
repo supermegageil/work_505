@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/work_505/static/css/main.fba69625.css",
+    "main.js": "/work_505/static/js/main.3039d020.js",
+    "index.html": "/work_505/index.html",
+    "main.fba69625.css.map": "/work_505/static/css/main.fba69625.css.map",
+    "main.3039d020.js.map": "/work_505/static/js/main.3039d020.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fba69625.css",
+    "static/js/main.3039d020.js"
+  ]
+}
