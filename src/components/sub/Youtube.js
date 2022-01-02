@@ -26,6 +26,30 @@ function Youtube(){
         <main>
             <div className="inner">
                 <h1><a href="#">Youtube</a></h1>
+
+                <section className="frame">
+                   {
+                       data.map((item, index)=>{
+                            let tit = item.snippet.title;
+                            let tit_len = tit.length;
+
+                            let desc = item.snippet.description;
+                            let desc_len = desc.length;
+
+                            return (
+                                <article key={index}>
+                                    <div className="inner">
+                                        <div className="pic">
+                                        <img src={item.snippet.thumbnails.medium.url} />
+                                        <h2>{(tit_len > 40) ? tit =  tit.substr(0,40)+"..." : tit}</h2>
+                                        <p>{(desc_len > 150) ? desc =  desc.substr(0,250)+"..." : desc}</p>
+                                        </div>
+                                    </div>
+                                </article>    
+                            )
+                        })
+                    }
+                </section>
             </div>
         </main>
     )
