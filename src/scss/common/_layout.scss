@@ -1,5 +1,5 @@
 header {
-    width: 100%; background: rgb(163, 171, 197);
+    width: 100%; background: rgb(65, 68, 72);
 
     .inner {
         width: 1180px; height: 100px; margin:0px auto;
@@ -8,7 +8,7 @@ header {
         h1{
             position: absolute; left: 0px; bottom:20px;
             a{
-                font: bold 24px/1 "arial"; color:#fff;
+                font: bold 24px/1 "arial"; color:rgb(245, 246, 244);
             }
         }
 
@@ -41,8 +41,8 @@ main {
 }
 
 footer {
-    width: 100%; border-top: 1px
-    solid #ddd; padding: 50px 0px;
+    width: 100%; border-top: 1px 
+    solid #ddd; padding: 50px 0px; 
 
     .inner {
         width: 1180px; margin: 0px auto;text-align: center;

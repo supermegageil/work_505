@@ -23,7 +23,11 @@ function Community(){
                 {
                     posts.map((data, index)=>{
                         return (
-                            <article key={index}><h1><span>{data.writer}</span><em>{data.date}</em></h1></article>
+                            <article key={index}>
+                                <h1>{data.title}</h1>
+                                <span>{data.writer}</span>
+                                <em>{data.date}</em>
+                            </article>
                         )
                     })
                 }
