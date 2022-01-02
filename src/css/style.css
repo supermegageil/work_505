@@ -16,7 +16,7 @@ body {
 
 header {
   width: 100%;
-  background: #414448; }
+  background: #4f4d4d; }
   header .inner {
     width: 1180px;
     height: 100px;
@@ -27,7 +27,7 @@ header {
       left: 0px;
       bottom: 20px; }
       header .inner h1 a {
-        font: bold 24px/1 "arial";
+        font: bold 26px/1 "dosis";
         color: #f5f6f4; }
     header .inner #gnb {
       position: absolute;
@@ -38,7 +38,7 @@ header {
         header .inner #gnb li a {
           display: inline-block;
           padding: 22px 30px;
-          font: 14px/1 "arial";
+          font: 16px/1 "dosis";
           color: #fff; }
 
 main {
@@ -48,8 +48,8 @@ main {
     min-height: 500px;
     margin: 0px auto; }
     main > .inner h1 {
-      font: 30px/1 "arial";
-      color: #333;
+      font: 25px/1 "dosis";
+      color: #b4bab9;
       margin-bottom: 20px; }
 
 footer {
@@ -61,8 +61,8 @@ footer {
     margin: 0px auto;
     text-align: center; }
     footer .inner p {
-      font: 12px/1 "arial";
-      color: #959fae;
+      font: 12px/1 "dosis";
+      color: #9da2ab;
       text-align: center; }
 
 @media screen and (max-width: 1179px) {
@@ -82,15 +82,15 @@ footer {
     width: 100%; } }
 figure {
   width: 100%;
-  height: 500px;
-  background: #a6e8ef; }
+  height: 550px;
+  background: #9fd0ef; }
 
 #info {
   width: 100%;
   padding: 100px 0px; }
   #info .inner {
     width: 1180px;
-    min-height: 300px;
+    min-height: 400px;
     margin: 0px auto; }
 
 .gallery .inner > section::after {
@@ -101,13 +101,13 @@ figure {
   width: 25%;
   height: 300px;
   float: left;
-  padding: 10px; }
+  padding: 20px; }
   .gallery .inner > section article > .inner {
     width: 100%;
     height: 100%;
     background: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px; }
+    padding: 18px; }
     .gallery .inner > section article > .inner .pic {
       width: 100%;
       height: 180px;
@@ -117,8 +117,9 @@ figure {
         height: 100%;
         object-fit: cover; }
     .gallery .inner > section article > .inner h2 {
-      font: normal 14px/1.2 "arial";
-      color: #777; }
+      font: normal 14px/1.2 "dosis";
+      color: #777;
+      text-align: center; }
 .gallery .pop {
   width: 100%;
   height: 100vh;
@@ -132,11 +133,11 @@ figure {
     height: 100%;
     object-fit: contain; }
   .gallery .pop p {
-    font: 14px/1.2 "arial";
+    font: 14px/1.2 "dosis";
     color: #fff;
     text-align: center; }
   .gallery .pop span {
-    font: bold 14px/1 "arial";
+    font: bold 14px/1 "dosis";
     color: #fff;
     position: absolute;
     top: 3vw;
@@ -149,7 +150,7 @@ figure {
   clear: both; }
 .youtube .inner .frame article {
   width: 50%;
-  height: 40vh;
+  height: 45vh;
   float: left;
   padding: 20px;
   overflow: hidden; }
@@ -162,15 +163,16 @@ figure {
     display: flex;
     flex-wrap: wrap; }
     .youtube .inner .frame article .inner .txt h2 {
-      font: 17px/1.4 "dosis";
+      font: 17px/1.2 "dosis";
       color: #5a6662;
       margin-bottom: 20px; }
     .youtube .inner .frame article .inner .txt p {
       font: 12px/1.2 "dosis";
-      color: #98aca5; }
+      color: #98aca5;
+      margin-bottom: 20px; }
     .youtube .inner .frame article .inner .pic {
       width: 100%;
-      height: 150px; }
+      height: 160px; }
       .youtube .inner .frame article .inner .pic img {
         width: 100%;
         height: 100%;

@@ -6,7 +6,7 @@
         }
   
         article {
-          width: 50%; height: 40vh; float: left;
+          width: 50%; height: 45vh; float: left;
           padding: 20px; overflow: hidden;
   
           .inner {
@@ -16,17 +16,17 @@
   
             .txt {
               h2 {
-                font: 17px/1.4 "dosis"; color: rgb(90, 102, 98); margin-bottom: 20px;
+                font: 17px/1.2 "dosis"; color: rgb(90, 102, 98); margin-bottom: 20px;
               }
   
               p {
-                font: 12px/1.2 "dosis"; color: rgb(152, 172, 165);
+                font: 12px/1.2 "dosis"; color: rgb(152, 172, 165);margin-bottom: 20px;
               }
             }
   
   
             .pic {
-              width: 100%; height: 150px; 
+              width: 100%; height: 160px; 
               img {
                 width: 100%; height: 100%; object-fit: cover;
               }
