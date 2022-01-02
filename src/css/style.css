@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Raleway:wght@100&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -141,5 +142,38 @@ figure {
     top: 3vw;
     right: 5vw;
     cursor: pointer; }
+
+.youtube .inner .frame::after {
+  content: "";
+  display: block;
+  clear: both; }
+.youtube .inner .frame article {
+  width: 50%;
+  height: 40vh;
+  float: left;
+  padding: 20px;
+  overflow: hidden; }
+  .youtube .inner .frame article .inner {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    .youtube .inner .frame article .inner .txt h2 {
+      font: 17px/1.4 "dosis";
+      color: #5a6662;
+      margin-bottom: 20px; }
+    .youtube .inner .frame article .inner .txt p {
+      font: 12px/1.2 "dosis";
+      color: #98aca5; }
+    .youtube .inner .frame article .inner .pic {
+      width: 100%;
+      height: 150px; }
+      .youtube .inner .frame article .inner .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
 
 /*# sourceMappingURL=style.css.map */

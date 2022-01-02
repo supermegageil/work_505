@@ -9,7 +9,7 @@ function Youtube(){
 
     const api_key = "AIzaSyClmDMoUAOVqnfaM5m7fQa7Wrm9yJqBeZ8";
     const playListId = "PLLoUbL4kq1KiWN9_82ViMcIwwkT68RMdN";
-    const num = 3;
+    const num = 4;
     const url =  `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&key=${api_key}&playlistId=${playListId}&maxResults=${num}`;
 
     useEffect(()=>{
@@ -23,7 +23,7 @@ function Youtube(){
 
 
     return (
-        <main>
+        < main className="youtube">
             <div className="inner">
                 <h1><a href="#">Youtube</a></h1>
 
@@ -39,10 +39,14 @@ function Youtube(){
                             return (
                                 <article key={index}>
                                     <div className="inner">
-                                        <div className="pic">
-                                        <img src={item.snippet.thumbnails.medium.url} />
+                                        <div className="txt">
+                                        
                                         <h2>{(tit_len > 40) ? tit =  tit.substr(0,40)+"..." : tit}</h2>
-                                        <p>{(desc_len > 150) ? desc =  desc.substr(0,250)+"..." : desc}</p>
+                                        <p>{(desc_len > 150) ? desc =  desc.substr(0,150)+"..." : desc}</p>
+                                        </div>
+                                        < div className="pic">
+                                            <img src={item.snippet.thumbnails.medium.url} />                      
+                    
                                         </div>
                                     </div>
                                 </article>    
