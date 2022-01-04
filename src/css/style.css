@@ -47,10 +47,11 @@ main {
     width: 1180px;
     min-height: 500px;
     margin: 0px auto; }
-    main > .inner h1 {
-      font: 25px/1 "dosis";
-      color: #b4bab9;
-      margin-bottom: 20px; }
+    main > .inner > h1 {
+      font: 20px/1 "dosis";
+      color: #435450;
+      margin-bottom: 20px;
+      text-align: center; }
 
 footer {
   width: 100%;
