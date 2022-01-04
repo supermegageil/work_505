@@ -1,6 +1,3 @@
-// My Play List Id: PLLoUbL4kq1KiWN9_82ViMcIwwkT68RMdN
-// Youtube API KEY: AIzaSyClmDMoUAOVqnfaM5m7fQa7Wrm9yJqBeZ8 
-
 import axios from 'axios';
 import {useEffect, useState} from 'react';
 

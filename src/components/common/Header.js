@@ -1,7 +1,7 @@
 import {NavLink} from 'react-router-dom';
 
 function Header(){
-    const active = {color:"#05bbfc"};
+    const active = {color:"#c4bfaf"};
 
     return (
         <header>

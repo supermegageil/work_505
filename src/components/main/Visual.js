@@ -1,7 +1,10 @@
+const path = process.env.PUBLIC_URL;
+
+
 function Visual() {
     return (
         <figure id="visual">
-        <img className="visualImage" alt="이미지" src="img/arch3.jpeg" />
+        <img className="visualImage" alt="이미지" src={path+"/img/arch27.jpeg"} />
     </figure>
         
     )

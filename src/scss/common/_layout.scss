@@ -1,5 +1,5 @@
 header {
-    width: 100%; background: rgb(79, 77, 77);
+    width: 100%; background: rgb(45, 43, 43); 
 
     .inner {
         width: 1180px; height: 100px; margin:0px auto;
@@ -28,13 +28,13 @@ header {
 }
 
 main {
-    padding: 100px 0px;
+    padding: 10px 0px;
 
     >.inner{
         width: 1180px;min-height:500px; margin:0px auto;
 
         >h1{
-                      font: 20px/1 "dosis"; color:rgb(67, 84, 80);
+                      font: 20px/1 "dosis"; color:rgb(22, 118, 140);
             margin-bottom: 20px; text-align: center;
             }
         }
