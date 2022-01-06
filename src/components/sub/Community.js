@@ -17,7 +17,7 @@ function Community(){
     },[]);
 
     return (
-        <main>
+        <main className="community">
             <div className="inner">
                 <h1><a href="#">Community</a></h1>
                 {
@@ -25,8 +25,9 @@ function Community(){
                         return (
                             <article key={index}>
                                 <h1>{data.title}</h1>
-                                <span>{data.writer}</span>
-                                <em>{data.date}</em>
+                                <div className="dateandwriter"><span>{data.writer}</span>
+                                <em>{data.date}</em></div>
+                                
                             </article>
                         )
                     })
