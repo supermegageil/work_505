@@ -19,7 +19,7 @@ function Community(){
     return (
         <main className="community">
             <div className="inner">
-                <h1><a href="#">Community</a></h1>
+            <h1><a href="#"></a></h1>
                 {
                     posts.map((data, index)=>{
                         return (

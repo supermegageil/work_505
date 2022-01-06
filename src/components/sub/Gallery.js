@@ -11,7 +11,7 @@ function Gallery(){
 
 
     const api_key="4f0c7aacc8689e7a16060a7f710cf848";
-    const url = `https://www.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=${api_key}&per_page=12&format=json&nojsoncallback=1`;
+    const url = `https://www.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=${api_key}&per_page=48&format=json&nojsoncallback=1`;
 
     useEffect(()=>{
         axios
@@ -25,7 +25,7 @@ function Gallery(){
     return (
         <main className="gallery">
             <div className="inner">
-                <h1><a href="#">Gallery</a></h1>
+            <h1><a href="#"></a></h1>
 
                 <section className="">
                     {

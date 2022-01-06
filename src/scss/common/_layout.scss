@@ -1,5 +1,5 @@
 header {
-    width: 100%; background: rgb(45, 43, 43); 
+    width: 100%; background: #efefef;
 
     .inner {
         width: 1180px; height: 100px; margin:0px auto;
@@ -8,7 +8,7 @@ header {
         h1{
             position: absolute; left: 0px; bottom:20px;
             a{
-                font: bold 26px/1 "dosis"; color:rgb(245, 246, 244);
+                font: bold 26px/1 "dosis"; color:rgb(225, 192, 91);
             }
         }
 
@@ -20,8 +20,9 @@ header {
 
                 a {
                     display: inline-block; padding: 22px 30px;
-                    font: 16px/1 "dosis"; color: #fff;
+                    font: 16px/1 "dosis"; color: rgb(225, 192, 91);
                 }
+              
             }
         }
     }

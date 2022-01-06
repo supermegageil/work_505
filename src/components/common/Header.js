@@ -1,13 +1,13 @@
 import {NavLink} from 'react-router-dom';
 
 function Header(){
-    const active = {color:"#56aed6"};
+    const active = {color:"#262926"};
 
     return (
         <header>
             <div className="inner">
                 
-                <h1><NavLink activeStyle={active} exact to="/">URBAN DETAIL</NavLink></h1>
+                <h1><NavLink activeStyle={active} exact to="/">REACT PORTFOLIO</NavLink></h1>
 
                 <ul id="gnb">
                 

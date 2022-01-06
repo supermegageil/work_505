@@ -22,7 +22,7 @@ function Youtube(){
     return (
         < main className="youtube">
             <div className="inner">
-                <h1><a href="#">Youtube</a></h1>
+                <h1><a href="#"></a></h1>
 
                 <section className="frame">
                    {
