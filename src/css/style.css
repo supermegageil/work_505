@@ -178,8 +178,7 @@ footer {
   .youtube .inner .frame article .inner {
     width: 100%;
     height: 100%;
-    background: #fff;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #efefef;
     padding: 20px;
     display: flex;
     flex-wrap: wrap; }

@@ -6,7 +6,7 @@ function Youtube(){
 
     const api_key = "AIzaSyClmDMoUAOVqnfaM5m7fQa7Wrm9yJqBeZ8";
     const playListId = "PLLoUbL4kq1KiWN9_82ViMcIwwkT68RMdN";
-    const num = 6;
+    const num = 10;
     const url =  `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&key=${api_key}&playlistId=${playListId}&maxResults=${num}`;
 
     useEffect(()=>{
