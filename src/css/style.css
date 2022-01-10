@@ -171,14 +171,15 @@ footer {
   clear: both; }
 .youtube .inner .frame article {
   width: 50%;
-  height: 45vh;
+  height: 50vh;
   float: left;
   padding: 20px;
   overflow: hidden; }
   .youtube .inner .frame article .inner {
     width: 100%;
     height: 100%;
-    background: #efefef;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
     flex-wrap: wrap; }

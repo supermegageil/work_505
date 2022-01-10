@@ -1,7 +1,7 @@
 function Info(){
     return (
         <section id="Info">
-            <div className="inner"></div>
+            <div className="inner">INFO INFO</div>
         </section>
     )
 }
