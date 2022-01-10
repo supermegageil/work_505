@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Raleway:wght@100&display=swap');
 
 
-
+//common
 @import "common/reset";
 @import "common/layout";
 
-@import "main/brand";
-@import "main/info";
-@import "main/project";
-@import "main/storyl";
+//main
 @import "main/visual";
 
+//sub
 @import "sub/department";
 @import "sub/community";
 @import "sub/gallery";

@@ -6,10 +6,6 @@ import Header from './components/common/Header.js';
 import Footer from './components/common/Footer.js';
 
 //main
-import Brand from './components/main/Brand.js';
-import Info from './components/main/Info.js';
-import Project from './components/main/Project.js';
-import Story from './components/main/Story.js';
 import Visual from './components/main/Visual.js';
 
 
@@ -25,8 +21,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-         
-      <Route exact path="/" component={Visual} />
+      
+      <Route exact path="/">
+         <Visual />
+      </Route>
+
       <Route exact path="/department" component={Department}></Route>
       <Route exact path="/community" component={Community}></Route>
       <Route exact path="/gallery" component={Gallery}></Route>
