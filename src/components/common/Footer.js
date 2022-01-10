@@ -2,7 +2,7 @@ function Footer(){
     return(
         <footer>
             <div className="inner">
-                <p> Copyright © Urban Detail. All rights reserved. </p>
+                <p> Copyright © React Portfolio. All rights reserved. </p>
             </div>
         </footer>
     )
