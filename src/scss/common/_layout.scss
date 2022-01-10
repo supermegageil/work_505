@@ -1,6 +1,5 @@
 header {
-    width: 100%; background: #efefef;
-
+    width: 100%; 
     .inner {
         width: 1180px; height: 100px; margin:0px auto;
         position: relative;
@@ -8,7 +7,7 @@ header {
         h1{
             position: absolute; left: 0px; bottom:20px;
             a{
-                font: bold 26px/1 "dosis"; color:rgb(225, 192, 91);
+                font: bold 26px/1 "dosis"; color:rgb(114, 112, 107);
             }
         }
 
@@ -20,7 +19,7 @@ header {
 
                 a {
                     display: inline-block; padding: 22px 30px;
-                    font: 16px/1 "dosis"; color: rgb(225, 192, 91);
+                    font: 16px/1 "dosis"; color: rgb(114, 112, 107);
                 }
               
             }
@@ -34,10 +33,7 @@ main {
     >.inner{
         width: 1180px;min-height:500px; margin:0px auto;
 
-        >h1{
-                      font: 20px/1 "dosis"; color:rgb(22, 118, 140);
-            margin-bottom: 20px; text-align: center;
-            }
+        
         }
     }
 
