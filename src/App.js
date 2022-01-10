@@ -1,13 +1,19 @@
 import './css/style.css';
 import {Route} from 'react-router-dom';
 
+//commen
 import Header from './components/common/Header.js';
 import Footer from './components/common/Footer.js';
 
+//main
+import Brand from './components/main/Brand.js';
+import Info from './components/main/Info.js';
+import Project from './components/main/Project.js';
+import Story from './components/main/Story.js';
 import Visual from './components/main/Visual.js';
 
 
-
+//sub
 import Department  from './components/sub/Department.js';
 import Community  from './components/sub/Community.js';
 import Gallery  from './components/sub/Gallery.js';
