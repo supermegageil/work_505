@@ -90,14 +90,6 @@ footer {
     height: 100%;
     object-fit: cover; }
 
-#info {
-  width: 100%;
-  padding: 100px 0px; }
-  #info .inner {
-    width: 1180px;
-    min-height: 400px;
-    margin: 0px auto; }
-
 .community .inner article {
   padding: 20px 10px;
   margin-bottom: 20px;

@@ -5,7 +5,7 @@ import Header from './components/common/Header.js';
 import Footer from './components/common/Footer.js';
 
 import Visual from './components/main/Visual.js';
-import Info from './components/main/Info.js';
+
 
 
 import Department  from './components/sub/Department.js';
@@ -19,11 +19,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Route exact path="/">
-        <Visual />
-        <Info />
-      </Route>      
-
+         
+      <Route exact path="/" component={Visual} />
       <Route exact path="/department" component={Department}></Route>
       <Route exact path="/community" component={Community}></Route>
       <Route exact path="/gallery" component={Gallery}></Route>
