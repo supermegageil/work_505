@@ -25,6 +25,9 @@ function App() {
       <Route exact path="/">
          <Visual />
       </Route>
+      <Route exact path="/work_505">
+         <Visual />
+      </Route>
 
       <Route exact path="/department" component={Department}></Route>
       <Route exact path="/community" component={Community}></Route>
