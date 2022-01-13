@@ -7,7 +7,7 @@ import Footer from './components/common/Footer.js';
 
 //main
 import Visual from './components/main/Visual.js';
-
+import Info from './components/main/Info.js';
 
 //sub
 import Department  from './components/sub/Department.js';
@@ -24,6 +24,7 @@ function App() {
       
       <Route exact path="/">
          <Visual />
+         <Info />
       </Route>
       <Route exact path="/work_505">
          <Visual />

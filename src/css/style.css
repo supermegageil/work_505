@@ -15,8 +15,7 @@ body {
   background: #efefef; }
 
 header {
-  width: 100%;
-  background: #efefef; }
+  width: 100%; }
   header .inner {
     width: 1180px;
     height: 100px;
@@ -28,7 +27,7 @@ header {
       bottom: 20px; }
       header .inner h1 a {
         font: bold 26px/1 "dosis";
-        color: #e1c05b; }
+        color: #72706b; }
     header .inner #gnb {
       position: absolute;
       bottom: 0px;
@@ -39,7 +38,7 @@ header {
           display: inline-block;
           padding: 22px 30px;
           font: 16px/1 "dosis";
-          color: #e1c05b; }
+          color: #72706b; }
 
 main {
   padding: 10px 0px; }
@@ -47,11 +46,6 @@ main {
     width: 1180px;
     min-height: 500px;
     margin: 0px auto; }
-    main > .inner > h1 {
-      font: 20px/1 "dosis";
-      color: #16768c;
-      margin-bottom: 20px;
-      text-align: center; }
 
 footer {
   width: 100%;
@@ -163,7 +157,7 @@ footer {
   clear: both; }
 .youtube .inner .frame article {
   width: 50%;
-  height: 50vh;
+  height: 48vh;
   float: left;
   padding: 20px;
   overflow: hidden; }
