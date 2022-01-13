@@ -27,7 +27,7 @@ header {
       bottom: 20px; }
       header .inner h1 a {
         font: bold 26px/1 "dosis";
-        color: #72706b; }
+        color: #c2b71d; }
     header .inner #gnb {
       position: absolute;
       bottom: 0px;
@@ -38,7 +38,7 @@ header {
           display: inline-block;
           padding: 22px 30px;
           font: 16px/1 "dosis";
-          color: #72706b; }
+          color: #c2b71d; }
 
 main {
   padding: 10px 0px; }
