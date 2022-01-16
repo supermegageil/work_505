@@ -45,6 +45,19 @@
         
           }
         }
+        
+    }
+    .pop {
+      width: 100%; height: 100vh; position: fixed; top: 0px; left: 0px; background: rgba(0,0,0,.9); padding: 5vw;
+
+      iframe {
+        border: none; width: 100%; height: 100%;
+      }
+
+      span {
+        position: absolute; top: 3vw; right: 5vw; 
+        font: bold 14px/1 "dosis"; color: #fff; cursor: pointer;
+      }
     }
   }
 } 
