@@ -1,6 +1,33 @@
 #visual {
     width: 100%;  height: 600px;
     background:rgb(214, 215, 188);
+
+    .blackbox{
+      width: 500px;
+      height: 220px;
+      position: absolute;
+      right:120px;
+      bottom:200px;
+      .blackbox__inner{
+        width: 100%;
+        height: 100%;
+        padding:40px;
+        background-color: black;
+        opacity:60%;
+        .yellowbox{
+          background-color: yellow;
+          width: 250px;
+          height: 40px;
+         
+        }
+        p{
+          font: 14px normal 'dosis';
+          color:white;
+          
+          
+        }
+      }
+    }
   
     img{
       width: 100%;  height: 100%;

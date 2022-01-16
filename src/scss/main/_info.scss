@@ -1,11 +1,49 @@
-#info {
-    width: 100%;  height: 800px;
-    padding-top: 100px;
-    
-  
-    img{
-      width: 100%;  height: 100%;
-      object-fit: cover;
-    }
+#info{
+  width:100%; 
+  height:100vh;
+  padding: 100px 0px;
+
+  .info__inner{
+  width:1180px; 
+  margin:0 auto; 
+  padding-left:100px;
+  padding-right:100px;
+
+      
+
+      .info__wrap{
+          width:100%; 
+
+          article{
+          width:25%; 
+          float:left; 
+          padding:10px;
+           
+          .pic{
+              width:100%; 
+              height:200px; 
+              overflow:hidden;
+              
+              img{
+                  width:100%; 
+                  height:100%; 
+                  object-fit:cover;
+                  transition:0.8s; 
+              }
+
+              &:hover img{
+                  transform:scale(1.5);
+
+              }
+          }
+          h2{
+              text-align: center;
+              padding:10px;
+              font: var(--font-regular);
+          }
+          }
+      }
+  }
 }
+
 

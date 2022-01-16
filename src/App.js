@@ -8,8 +8,8 @@ import Footer from './components/common/Footer.js';
 //main
 import Visual from './components/main/Visual.js';
 import Info from './components/main/Info.js';
-import Brand from './components/main/brand.js';
-import Banner from './components/main/banner.js';
+import Brand from './components/main/Brand.js';
+import Banner from './components/main/Banner.js';
 
 //sub
 import Department  from './components/sub/Department.js';
@@ -33,6 +33,9 @@ function App() {
       </Route>
       <Route exact path="/work_505">
          <Visual />
+         <Info />
+         <Brand />
+         <Banner />
       </Route>
 
       <Route exact path="/department" component={Department}></Route>

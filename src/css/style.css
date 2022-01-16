@@ -1,5 +1,24 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Raleway:wght@100&display=swap");
+:root {
+  --color-white-00: #ffffff;
+  --color-white-01:#dfdfe9;
+  --color-gray-00:#cacad6;
+  --color-gray-01:#b2b2bb;
+  --color-darkgray-00:#59595d;
+  --color-darkgray-01:#3f4144;
+  --color-darkgray-02:#36373a;
+  --color-black:#080808;
+  --color-yellow-00:#e0bb42;
+  --color-yellow-01:#cea72a;
+  --color-orange:#e77213;
+  --color-skyblue:#2aa8ce;
+  --font-large: 30px;
+  --font-medium: 24px;
+  --font-regular: 18px;
+  --font-small: 14px;
+  --font-micro: 12px; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -80,6 +99,25 @@ footer {
   width: 100%;
   height: 600px;
   background: #d6d7bc; }
+  #visual .blackbox {
+    width: 500px;
+    height: 220px;
+    position: absolute;
+    right: 120px;
+    bottom: 200px; }
+    #visual .blackbox .blackbox__inner {
+      width: 100%;
+      height: 100%;
+      padding: 40px;
+      background-color: black;
+      opacity: 60%; }
+      #visual .blackbox .blackbox__inner .yellowbox {
+        background-color: yellow;
+        width: 250px;
+        height: 40px; }
+      #visual .blackbox .blackbox__inner p {
+        font: 14px normal 'dosis';
+        color: white; }
   #visual img {
     width: 100%;
     height: 100%;
@@ -87,12 +125,122 @@ footer {
 
 #info {
   width: 100%;
-  height: 800px;
-  padding-top: 100px; }
-  #info img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
+  height: 100vh;
+  padding: 100px 0px; }
+  #info .info__inner {
+    width: 1180px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px; }
+    #info .info__inner .info__wrap {
+      width: 100%; }
+      #info .info__inner .info__wrap article {
+        width: 25%;
+        float: left;
+        padding: 10px; }
+        #info .info__inner .info__wrap article .pic {
+          width: 100%;
+          height: 200px;
+          overflow: hidden; }
+          #info .info__inner .info__wrap article .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.8s; }
+          #info .info__inner .info__wrap article .pic:hover img {
+            transform: scale(1.5); }
+        #info .info__inner .info__wrap article h2 {
+          text-align: center;
+          padding: 10px;
+          font: var(--font-regular); }
+
+#brand {
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  margin-bottom: 100px;
+  background: var(--color-white);
+  border: 1px solid red; }
+  #brand .brand__inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #brand .brand__inner > h1 {
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 20px; }
+    #brand .brand__inner .brand__wrap {
+      width: 100%; }
+      #brand .brand__inner .brand__wrap .brand__txt {
+        width: 380px;
+        height: 620px;
+        background: #444;
+        float: left;
+        margin-right: 20px;
+        padding: 170px 50px 0px;
+        text-align: center; }
+        #brand .brand__inner .brand__wrap .brand__txt i {
+          font-size: 100px;
+          color: #fff;
+          margin-bottom: 20px; }
+        #brand .brand__inner .brand__wrap .brand__txt h2 {
+          font: bold 20px/1 'arial';
+          color: #fff;
+          margin-bottom: 10px; }
+        #brand .brand__inner .brand__wrap .brand__txt p {
+          font: 14px/1.3 'arial';
+          color: #999;
+          margin-bottom: 30px; }
+        #brand .brand__inner .brand__wrap .brand__txt a {
+          display: block;
+          width: 150px;
+          height: 30px;
+          font: 11px/30px 'arial';
+          color: #ddd;
+          text-align: center;
+          border: 1px solid #bbb;
+          margin: 0 auto; }
+      #brand .brand__inner .brand__wrap .brand__pic1 {
+        width: 380px;
+        height: 300px;
+        float: left;
+        margin-right: 20px; }
+        #brand .brand__inner .brand__wrap .brand__pic1 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      #brand .brand__inner .brand__wrap .brand__pic2 {
+        width: 380px;
+        height: 300px;
+        background: #444;
+        float: left; }
+        #brand .brand__inner .brand__wrap .brand__pic2 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      #brand .brand__inner .brand__wrap .brand__pic3 {
+        width: 780px;
+        height: 300px;
+        float: left;
+        margin-top: 20px;
+        position: relative; }
+        #brand .brand__inner .brand__wrap .brand__pic3 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+
+#banner {
+  width: 100%;
+  padding: 300px 0;
+  background-color: black; }
+  #banner .banner__inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #banner .banner__inner h1 {
+      font: 30px normal; }
+    #banner .banner__inner p {
+      font: 16px/1.3 'dosis';
+      color: white;
+      text-align: center; }
 
 .community .inner article {
   padding: 20px 10px;
