@@ -1,11 +1,20 @@
+import { useEffect, useRef } from "react";
+
 function Department(){
-    return (
-        <main>
-            <div className="inner">
-            <h1><a href="#"></a></h1>
-            </div>
-        </main>
-    )
+  const frame = useRef(null);
+
+  useEffect(()=>{
+    frame.current.classList.add('on');
+  },[])
+
+  return (
+    <main ref={frame}>
+      <div className="inner">
+        <h1><a href="#">Department</a></h1>
+
+      </div>
+    </main>
+  )
 }
 
 export default Department;

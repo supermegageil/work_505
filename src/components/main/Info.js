@@ -6,9 +6,8 @@ function Info() {
         <figure id="info">
             <img className="infoImage" alt="이미지" src={path+"/img/arch5.jpeg"} />
         </figure>
-    
-
+        
     )
-
 }
+
 export default Info;

@@ -1,5 +1,5 @@
 import './css/style.css';
-import {Route} from 'react-router-dom';
+import {Navlink, Link, Route} from 'react-router-dom';
 
 //commen
 import Header from './components/common/Header.js';
@@ -8,6 +8,8 @@ import Footer from './components/common/Footer.js';
 //main
 import Visual from './components/main/Visual.js';
 import Info from './components/main/Info.js';
+import Brand from './components/main/brand.js';
+import Banner from './components/main/banner.js';
 
 //sub
 import Department  from './components/sub/Department.js';
@@ -17,6 +19,7 @@ import Youtube  from './components/sub/Youtube.js';
 import Location  from './components/sub/Location.js';
 import Join  from './components/sub/Join.js';
 
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +28,8 @@ function App() {
       <Route exact path="/">
          <Visual />
          <Info />
+         <Brand />
+         <Banner />
       </Route>
       <Route exact path="/work_505">
          <Visual />

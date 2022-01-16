@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Raleway:wght@100&display=swap');
 
 
+$web : 1199px;
+$tablet : 739px;
+$mobile : 539px;
+
+
 //common
 @import "common/reset";
 @import "common/layout";
@@ -9,6 +14,8 @@
 //main
 @import "main/visual";
 @import "main/info";
+@import "main/brand";
+@import "main/banner";
 
 //sub
 @import "sub/department";
