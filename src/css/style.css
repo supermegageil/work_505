@@ -1,5 +1,24 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Licorice&family=Raleway:wght@100&display=swap");
+:root {
+  --color-white-00: #ffffff;
+  --color-white-01:#dfdfe9;
+  --color-gray-00:#cacad6;
+  --color-gray-01:#b2b2bb;
+  --color-darkgray-00:#59595d;
+  --color-darkgray-01:#3f4144;
+  --color-darkgray-02:#36373a;
+  --color-black:#080808;
+  --color-yellow-00:#e0bb42;
+  --color-yellow-01:#cea72a;
+  --color-orange:#e77213;
+  --color-skyblue:#2aa8ce;
+  --font-large: 30px;
+  --font-medium: 24px;
+  --font-regular: 18px;
+  --font-small: 14px;
+  --font-micro: 12px; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -261,27 +280,43 @@ footer {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: 0.7s; }
+            transition: 0.7s;
+            filter: grayscale(1); }
+          #department .department__inner .department__wrap article .pic:hover img {
+            filter: none;
+            transform: scale(1.1);
+            transition: all 0.7s; }
         #department .department__inner .department__wrap article h2 {
           text-align: center;
           padding: 10px;
           font: var(--font-regular); }
 
-.community .inner article {
-  padding: 20px 10px;
-  margin-bottom: 20px;
-  border-top: 1px solid #bcb7b7;
-  border-bottom: 1px solid #bcb7b7;
-  display: flex;
-  justify-content: space-between; }
-  .community .inner article h1 {
-    font-weight: normal; }
-  .community .inner article .dateandwriter span {
-    font-size: 20px; }
-  .community .inner article .dateandwriter em {
-    margin-left: 20px;
-    font-size: 20px;
-    font-style: normal; }
+.community .inner {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .community .inner article {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-top: 1px dashed #f7f2f2;
+    border-bottom: 1px dashed #f7f7f7;
+    display: flex;
+    justify-content: space-between; }
+    .community .inner article h1 {
+      font-weight: normal;
+      color: white;
+      font-size: 15px; }
+    .community .inner article :hover {
+      color: var(--color-skyblue); }
+    .community .inner article .dateandwriter span {
+      font-size: 15px;
+      color: white; }
+    .community .inner article .dateandwriter em {
+      margin-left: 20px;
+      font-size: 15px;
+      font-style: normal;
+      color: white; }
+    .community .inner article .dateandwriter :hover {
+      color: var(--color-yellow-01); }
 
 .gallery .inner > section::after {
   content: "";

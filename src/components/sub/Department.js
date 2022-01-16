@@ -12,29 +12,25 @@ function Department(){
                 <div class="pic">
                 <img src={path+"/img/team.jpeg"} />
                 </div>
-                <h2><a href="#">Lorem, ipsum.</a></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <h2>Lorem, ipsum.</h2>
             </article>
             <article>
                 <div class="pic">
                     <img src={path+"/img/team.jpeg"} />
                 </div>
-                <h2><a href="#">Lorem, ipsum.</a></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <h2>Lorem, ipsum.</h2>
             </article>
             <article>
                 <div class="pic">
                     <img src={path+"/img/team.jpeg"} />
                 </div>
-                <h2><a href="#">Lorem, ipsum.</a></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <h2>Lorem, ipsum.</h2>
             </article>
             <article>
                 <div class="pic">
                     <img src={path+"/img/team.jpeg"} />
                 </div>
-                <h2><a href="#">Lorem, ipsum.</a></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <h2>Lorem, ipsum.</h2>
             </article>
         </div>
       </div>
