@@ -1,19 +1,44 @@
 import { useEffect, useRef } from "react";
+const path = process.env.PUBLIC_URL;
 
 function Department(){
-  const frame = useRef(null);
-
-  useEffect(()=>{
-    frame.current.classList.add('on');
-  },[])
 
   return (
-    <main ref={frame}>
-      <div className="inner">
-        <h1><a href="#">Department</a></h1>
-
+   <div id="department">
+      <div className="department__inner">
+        <h1>LOREM IPSUM</h1>
+        <div class="department__wrap">
+            <article>
+                <div class="pic">
+                <img src={path+"/img/team.jpeg"} />
+                </div>
+                <h2><a href="#">Lorem, ipsum.</a></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </article>
+            <article>
+                <div class="pic">
+                    <img src={path+"/img/team.jpeg"} />
+                </div>
+                <h2><a href="#">Lorem, ipsum.</a></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </article>
+            <article>
+                <div class="pic">
+                    <img src={path+"/img/team.jpeg"} />
+                </div>
+                <h2><a href="#">Lorem, ipsum.</a></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </article>
+            <article>
+                <div class="pic">
+                    <img src={path+"/img/team.jpeg"} />
+                </div>
+                <h2><a href="#">Lorem, ipsum.</a></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </article>
+        </div>
       </div>
-    </main>
+    </div>
   )
 }
 

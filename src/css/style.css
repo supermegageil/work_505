@@ -236,6 +236,37 @@ footer {
       color: white;
       text-align: center; }
 
+#department {
+  width: 100%;
+  height: 100vh;
+  padding: 0px 0px; }
+  #department .department__inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #department .department__inner > h1 {
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 20px; }
+    #department .department__inner .department__wrap {
+      width: 100%; }
+      #department .department__inner .department__wrap article {
+        width: 25%;
+        float: left;
+        padding: 20px; }
+        #department .department__inner .department__wrap article .pic {
+          width: 100%;
+          height: 80vh;
+          overflow: hidden; }
+          #department .department__inner .department__wrap article .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.7s; }
+        #department .department__inner .department__wrap article h2 {
+          text-align: center;
+          padding: 10px;
+          font: var(--font-regular); }
+
 .community .inner article {
   padding: 20px 10px;
   margin-bottom: 20px;
