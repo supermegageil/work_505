@@ -1,3 +1,26 @@
+:root{
+    //color
+    --color-white-00: #ffffff;
+    --color-white-01:#dfdfe9;
+    --color-gray-00:#cacad6;
+    --color-gray-01:#b2b2bb;
+    --color-darkgray-00:#59595d;
+    --color-darkgray-01:#3f4144;
+    --color-darkgray-02:#36373a;
+    --color-black:#080808;
+    --color-yellow-00:#e0bb42;
+    --color-yellow-01:#cea72a;
+    --color-orange:#e77213;
+    --color-skyblue:#2aa8ce;
+
+    // font size
+    --font-large: 30px;
+    --font-medium: 24px;
+    --font-regular: 18px;
+    --font-small: 14px;
+    --font-micro: 12px;
+}
+
 header {
     width: 100%; 
     .inner {
@@ -7,7 +30,7 @@ header {
         h1{
             position: absolute; left: 0px; bottom:20px;
             a{
-                font: bold 26px/1 "dosis"; color:#c2b71d;
+                font: bold 26px/1 "dosis"; color: var(--color-yellow-01);
             }
         }
 
@@ -19,7 +42,7 @@ header {
 
                 a {
                     display: inline-block; padding: 22px 30px;
-                    font: 16px/1 "dosis"; color: #c2b71d;
+                    font: 16px/1 "dosis"; color:var(--color-yellow-01);
                 }
               
             }

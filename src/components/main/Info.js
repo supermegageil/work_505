@@ -47,6 +47,41 @@ function Info() {
                             <img src={path+"/img/pic.jpeg"} />
                         </div>
                     </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
+                    <article>
+                        <div class="pic">
+                            <img src={path+"/img/pic.jpeg"} />
+                        </div>
+                    </article>
                     
                 </div>
             </div>
