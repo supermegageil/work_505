@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 function Join(){
+  
   const initVal={
     userid : '',
     pwd1 : '',
@@ -29,12 +30,11 @@ function Join(){
 
   const handleSelect = e => {
     const {name} = e.target;
-    //console.log(e.target.options);
     const isSelected = e.target.options[e.target.selectedIndex].value;
     setVal({...val, [name]: isSelected});
   }
 
-  //submit이벤트 발생하면 실행되는 함수
+
   const handleSubmit = e =>{ 
     e.preventDefault();   
     setIsSubmit(true);
@@ -42,7 +42,7 @@ function Join(){
     console.log(val);
   }
 
-  //에러 객체를 반환하는 함수
+
   const check = val=>{
     let errs = {};  
     let eng = /[a-zA-Z]/;
@@ -50,19 +50,19 @@ function Join(){
     let spc = /[!@#$%^&*]/;
 
     if( !val.userid || val.userid.length <5 ){
-      errs.userid='아이디 5글자 이상입력';
+      errs.userid='아이디 5글자 이상 입력하세요';
     } 
     if( !val.pwd1 || val.pwd1.length<5 || !eng.test(val.pwd1) || !num.test(val.pwd1) || !spc.test(val.pwd1)){
-      errs.pwd1='비밀번호는 5글자 이상, 문자,숫자,특수문자를 모두 포함';
+      errs.pwd1='비밀번호는 5글자 이상, 문자,숫자,특수문자를 모두 포함해야 합니다';
     }
     if( !val.email || val.email.length <8 || !/@/.test(val.email) ){
-      errs.email='이메일주소를 8글자 이상입력';
+      errs.email='이메일주소를 8글자 이상입력 하세요';
     }
     if( !val.pwd2 || val.pwd1 !== val.pwd2 ){
-      errs.pwd2='두개의 비밀번호를 동일하게 입력';
+      errs.pwd2='두개의 비밀번호를 동일하게 입력하세요';
     }
     if( !val.comments || val.comments.length <10 ){
-      errs.comments='남기는말을 10글자 이상입력';
+      errs.comments='남기는말을 10글자 이상입력 하세요';
     }
     if( !val.gender ){
       errs.gender='성별을 선택하세요';
@@ -70,8 +70,8 @@ function Join(){
     if( !val.interests ){
       errs.interests='관심사를 하나이상 선택하세요.';
     }
-    if( !val.edu ){
-      errs.edu='학력을 선택해주세요.'
+    if( !val.color ){
+      errs.edu='좋아하는 색을 선택해주세요.'
     }
     return errs;
   }
@@ -91,13 +91,13 @@ function Join(){
   return (
     <main className='join'>
       <div className="inner">
-        <h1><a href="#">Join</a></h1>
+      
 
         {success ? <div>회원가입을 축하합니다.</div> : null }
 
         <form onSubmit={handleSubmit} >
           <fieldset>
-            <legend className='h'>회원가입 입력 폼 양식</legend>
+            <legend className='h'>회원가입</legend>
 
             <table>
               <caption className='h'>회원가입 입력</caption>
@@ -181,7 +181,7 @@ function Join(){
                       row='10'
                       id='comments'
                       name='comments'
-                      placeholder='남기는 말을 적어주세요2'                  
+                      placeholder='글을 남겨주세요'                  
                       onChange={handleChange}
                     ></textarea>
                     <span className='err'>{err.comments}</span>
@@ -202,13 +202,22 @@ function Join(){
                       onChange = {handleCheck}
                     />
 
-                    <label htmlFor='femal'>Female</label>
+                    <label htmlFor='female'>Female</label>
                     <input 
                       type="radio" 
                       id='female' 
                       name='gender' 
                       onChange = {handleCheck} 
                     />
+
+                    <label htmlFor='other'>Other</label>
+                    <input 
+                      type="radio" 
+                      id='other' 
+                      name='gender' 
+                      onChange = {handleCheck} 
+                    />
+
                     <span className='err'>{err.gender}</span>
                   </td>
                 </tr>
@@ -219,7 +228,7 @@ function Join(){
                     INTERESTS
                   </th>
                   <td>
-                    <label htmlFor='sport'>Sports</label>
+                    <label htmlFor='shopping'>Shopping</label>
                     <input 
                       type="checkbox" 
                       id='sports' 
@@ -227,7 +236,7 @@ function Join(){
                       onChange = {handleCheck}
                     />
 
-                    <label htmlFor='music'>Music</label>
+                    <label htmlFor='work'>Work</label>
                     <input 
                       type="checkbox" 
                       id='music' 
@@ -235,10 +244,18 @@ function Join(){
                       onChange = {handleCheck} 
                     />
 
-                    <label htmlFor='game'>Game</label>
+                    <label htmlFor='travel'>Travel</label>
                     <input 
                       type="checkbox" 
                       id='game' 
+                      name='interests' 
+                      onChange = {handleCheck} 
+                    />
+
+                    <label htmlFor='dance'>Dance</label>
+                    <input 
+                      type="checkbox" 
+                      id='dance' 
                       name='interests' 
                       onChange = {handleCheck} 
                     />
@@ -250,15 +267,15 @@ function Join(){
                 {/* education */}
                 <tr>
                   <th scope='row'>
-                  <label htmlFor='edu'>EDUCATION</label>
+                  <label htmlFor='edu'>FAVORITE COLOR</label>
                   </th>
                   <td>                    
-                    <select name="edu" id="edu" onChange={handleSelect}>
-                      <option value="">학력을 선택하세요</option>
-                      <option value="elementary-school">초등학교 졸업</option>
-                      <option value="middle-school">중학교 졸업</option>
-                      <option value="high-school">고등학교 졸업</option>
-                      <option value="college">대학교 졸업</option>
+                    <select name="color" id="color" onChange={handleSelect}>
+                      <option value="">좋아하는 색을 선택하세요</option>
+                      <option value="red">빨강색</option>
+                      <option value="blue">파란색</option>
+                      <option value="green">녹색</option>
+                      <option value="yellow">노란색</option>
                     </select>
                     <span className='err'>{err.edu}</span>
                   </td>
