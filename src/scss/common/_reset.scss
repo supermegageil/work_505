@@ -8,6 +8,7 @@
     --color-darkgray-01:#3f4144;
     --color-darkgray-02:#36373a;
     --color-black:#080808;
+    --color-light-black:#353d3d;
     --color-yellow-00:#e0bb42;
     --color-yellow-01:#cea72a;
     --color-orange:#e77213;
@@ -33,5 +34,5 @@ a{
 }
 body {
     //background: #efefef;
-    background-color: var(--color-black);
+    background-color: var(--color-light-black);
 }

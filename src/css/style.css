@@ -9,6 +9,7 @@
   --color-darkgray-01:#3f4144;
   --color-darkgray-02:#36373a;
   --color-black:#080808;
+  --color-light-black:#353d3d;
   --color-yellow-00:#e0bb42;
   --color-yellow-01:#cea72a;
   --color-orange:#e77213;
@@ -32,7 +33,7 @@ a {
   outline: 0; }
 
 body {
-  background-color: var(--color-black); }
+  background-color: var(--color-light-black); }
 
 :root {
   --color-white-00: #ffffff;
@@ -172,8 +173,7 @@ footer {
   height: 100vh;
   padding: 100px 0;
   margin-bottom: 100px;
-  background: var(--color-white);
-  border: 1px solid red; }
+  background: var(--color-white); }
   #brand .brand__inner {
     width: 1180px;
     margin: 0 auto; }
@@ -186,32 +186,11 @@ footer {
       #brand .brand__inner .brand__wrap .brand__txt {
         width: 380px;
         height: 620px;
-        background: #444;
+        background: var(--color-white);
         float: left;
         margin-right: 20px;
         padding: 170px 50px 0px;
         text-align: center; }
-        #brand .brand__inner .brand__wrap .brand__txt i {
-          font-size: 100px;
-          color: #fff;
-          margin-bottom: 20px; }
-        #brand .brand__inner .brand__wrap .brand__txt h2 {
-          font: bold 20px/1 'arial';
-          color: #fff;
-          margin-bottom: 10px; }
-        #brand .brand__inner .brand__wrap .brand__txt p {
-          font: 14px/1.3 'arial';
-          color: #999;
-          margin-bottom: 30px; }
-        #brand .brand__inner .brand__wrap .brand__txt a {
-          display: block;
-          width: 150px;
-          height: 30px;
-          font: 11px/30px 'arial';
-          color: #ddd;
-          text-align: center;
-          border: 1px solid #bbb;
-          margin: 0 auto; }
       #brand .brand__inner .brand__wrap .brand__pic1 {
         width: 380px;
         height: 300px;
@@ -243,8 +222,8 @@ footer {
 
 #banner {
   width: 100%;
-  padding: 300px 0;
-  background-color: black; }
+  padding: 200px 0;
+  background-color: var(--color-yellow-01); }
   #banner .banner__inner {
     width: 1180px;
     margin: 0 auto; }
